@@ -3,10 +3,10 @@
              xmlns="http://xmlns.jcp.org/xml/ns/persistence"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence  	http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
              version="2.1">
-    <persistence-unit name="carDB" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="inventoryDB" transaction-type="RESOURCE_LOCAL">
         <properties>
             <property name="hibernate.connection.url"
-                      value="jdbc:mysql://localhost:3306/car_dealer_dbc?useSSL=false&amp;createDatabaseIfNotExist=true&amp;serverTimezone=UTC"/>
+                      value="jdbc:mysql://localhost:3306/inventoryDB?useSSL=false&amp;createDatabaseIfNotExist=true&amp;serverTimezone=UTC"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
             <property name="hibernate.connection.username" value="root"/>
             <property name="hibernate.connection.password" value="roo7"/>

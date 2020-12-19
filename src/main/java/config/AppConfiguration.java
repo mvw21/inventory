@@ -12,7 +12,7 @@ public class AppConfiguration {
     @Produces
     public EntityManager entityManager() {
         return Persistence
-                .createEntityManagerFactory("carDB")
+                .createEntityManagerFactory("inventoryDB")
                 .createEntityManager();
     }
 
